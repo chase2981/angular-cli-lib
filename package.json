@@ -2,15 +2,20 @@
   "name": "angular-cli-lib",
   "version": "0.0.0",
   "license": "MIT",
+  "repository": {
+    "url": "https://github.com/chase2981/angular-cli-lib"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "packagr": "ng-packagr -p ng-package.json",
+    "postinstall": "npm run packagr"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "^5.2.0",
     "@angular/common": "^5.2.0",

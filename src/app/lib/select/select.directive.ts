@@ -3,12 +3,11 @@ import {
   EventEmitter, Directive, HostBinding, HostListener, forwardRef, InjectionToken
 } from '@angular/core';
 import { NgModel, NG_VALUE_ACCESSOR } from '@angular/forms';
-import { ReplaySubject } from 'rxjs/Rx';
 
 import { equals, isDefined } from './helpers';
 
 import { NgModelInput, NgModelInputValueAccessor } from './ng-model-input';
-import { Select, Option } from './shared';
+import { Select, Option } from './shared/index';
 
 var count = 1;
 

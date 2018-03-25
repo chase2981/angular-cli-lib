@@ -1,11 +1,20 @@
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+import { NO_ERRORS_SCHEMA } from '@angular/core';
+import { SelectDirective, OptionDirective } from './lib/select';
+import { ImmutableService } from './lib/immutable';
 describe('AppComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [
-        AppComponent
+        AppComponent,
+        SelectDirective,
+        OptionDirective,
       ],
+      providers: [ImmutableService],
+      schemas: [
+        NO_ERRORS_SCHEMA
+      ]
     }).compileComponents();
   }));
   it('should create the app', async(() => {

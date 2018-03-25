@@ -1,1 +1,1 @@
-export * from './bootstrap-actions-box.component';
+export {BootstrapActionsBoxComponent} from './bootstrap-actions-box.component';

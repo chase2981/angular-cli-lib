@@ -1,8 +1,8 @@
 import { Component, OnInit, Input } from '@angular/core';
 
-import { equals, isArray } from '@rd/core';
+import { equals, isArray } from '../../../select/helpers';
 
-import { KENDO_DROPDOWN_ANIMATION } from '../../../shared/kendo-dropdown.animation';
+// import { KENDO_DROPDOWN_ANIMATION } from '../../../shared/kendo-dropdown.animation';
 import { Select } from '../../../select/shared/select';
 import { Option } from '../../../select/shared/option';
 
@@ -11,7 +11,7 @@ import { Option } from '../../../select/shared/option';
   templateUrl: './bootstrap-dropdown-menu.component.html',
   styleUrls: ['./bootstrap-dropdown-menu.component.less'],
   animations: [
-    KENDO_DROPDOWN_ANIMATION
+    // KENDO_DROPDOWN_ANIMATION
   ]
 })
 export class BootstrapDropdownMenuComponent implements OnInit {

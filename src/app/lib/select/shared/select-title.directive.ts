@@ -1,5 +1,5 @@
 import { AfterViewInit, Directive, Input, Output, OnChanges, EventEmitter, OnInit, SimpleChange, SimpleChanges } from '@angular/core';
-
+import 'rxjs/add/operator/debounceTime';
 import { equals } from '../helpers';
 
 import { Select } from './select';
@@ -20,16 +20,18 @@ export class SelectTitleDirective implements OnInit {
     if (!this.select)
       throw Error('Select not provided to SelectTitleDirective');
 
-    this.select.optionChange$.debounceTime(this.DEBOUNCE_TIME).subscribe(newVal => {
-      this.setTitle();
-    });
-    this.select.ngModelChange$.debounceTime(this.DEBOUNCE_TIME).subscribe(newVal => {
-      this.setTitle();
-    });
+    if (this.select.optionChange$)
+      this.select.optionChange$.debounceTime(this.DEBOUNCE_TIME).subscribe(newVal => {
+        this.setTitle();
+      });
+    if (this.select.ngModelChange$)
+      this.select.ngModelChange$.debounceTime(this.DEBOUNCE_TIME).subscribe(newVal => {
+        this.setTitle();
+      });
   }
 
   protected getTitle() {
-    if(!this.select || !this.select.options || !this.select.ngModel)
+    if (!this.select || !this.select.options || !this.select.ngModel)
       return null;
 
     let option = this.select.options.filter(option => this.select.ngModel && option.value && equals(option.value, this.select.ngModel))[0];
@@ -38,7 +40,7 @@ export class SelectTitleDirective implements OnInit {
   }
 
   protected getTitleMultiple() {
-    if(!this.select || !this.select.ngModel || !this.select.options || !this.select.ngModel.length || !this.select.options.length)
+    if (!this.select || !this.select.ngModel || !this.select.options || !this.select.ngModel.length || !this.select.options.length)
       return null;
 
     let activeOptions = this.select.options.filter(option => this.select.ngModel.indexOf(option.value) > -1);

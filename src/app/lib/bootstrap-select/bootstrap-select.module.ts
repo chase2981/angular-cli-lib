@@ -25,7 +25,8 @@ import {
     BootstrapToggleBtnComponent,
     BootstrapActionsBoxComponent,
     BootstrapDropdownMenuComponent,
-    BootstrapFilterComponent
+    BootstrapFilterComponent,
+    SelectModule,
   ]
 })
 export class BootstrapSelectModule { }

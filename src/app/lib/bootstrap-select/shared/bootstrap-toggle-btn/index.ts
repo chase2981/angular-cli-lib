@@ -1,1 +1,1 @@
-export * from './bootstrap-toggle-btn.component';
+export {BootstrapToggleBtnComponent} from './bootstrap-toggle-btn.component';

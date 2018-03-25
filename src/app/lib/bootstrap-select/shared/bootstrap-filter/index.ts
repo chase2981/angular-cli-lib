@@ -1,1 +1,1 @@
-export * from './bootstrap-filter.component';
+export {BootstrapFilterComponent} from './bootstrap-filter.component';

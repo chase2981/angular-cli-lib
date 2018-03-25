@@ -1,1 +1,1 @@
-export * from './bootstrap-dropdown-menu.component';
+export {BootstrapDropdownMenuComponent} from './bootstrap-dropdown-menu.component';

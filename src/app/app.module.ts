@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { SelectModule } from './lib/select';
+import { BootstrapSelectModule } from './lib/bootstrap-select';
 
 @NgModule({
   declarations: [
@@ -10,7 +11,8 @@ import { SelectModule } from './lib/select';
   ],
   imports: [
     BrowserModule,
-    SelectModule,
+    // SelectModule,
+    BootstrapSelectModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -26,6 +26,7 @@
 !.vscode/extensions.json
 
 # misc
+/.ng_pkg_build
 /.sass-cache
 /connect.lock
 /coverage

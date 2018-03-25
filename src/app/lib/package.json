@@ -1,14 +1,17 @@
 {
-    "name": "@rd/forms",
+    "name": "@turbonemesis/angular-cli-lib",
     "version": "1.0.0-alpha.1",
-    "repository": "https://github.com/dherges/ng-packaged.git",
-    "author": "david <david@spektrakel.de>",
+    "repository": "https://github.com/chase2981/angular-cli-lib.git",
+    "author": "chase <chase3111@gmail.com>",
     "license": "MIT",
-    "private": true,
+    "private": false,
     "peerDependencies": {
       "@angular/core": "^5.0.0",
       "@angular/common": "^5.0.0",
       "@angular/forms": "^5.0.0"
+    },
+    "publishConfig": {
+      "access": "public"
     },
     "ngPackage": {
       "$schema": "../../../node_modules/ng-packagr/ng-package.schema.json",

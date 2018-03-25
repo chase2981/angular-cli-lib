@@ -11,7 +11,7 @@
     "start": "ng serve",
     "build": "ng build --prod",
     "test": "npm run test-ci",
-    "posttest": "codecov -t ",
+    "posttest": "codecov -t b520543a-ee6f-4df2-ab67-64825cfac451",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "packagr": "ng-packagr -p ./src/app/lib/ng-package.json",

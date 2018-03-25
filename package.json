@@ -11,9 +11,10 @@
     "start": "ng serve",
     "build": "ng build --prod",
     "test": "npm run test-ci",
+    "posttest": "codecov -t ",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "packagr": "ng-packagr -p ./ng-package.json",
+    "packagr": "ng-packagr -p ./src/app/lib/ng-package.json",
     "postinstall": "npm run packagr"
   },
   "private": false,

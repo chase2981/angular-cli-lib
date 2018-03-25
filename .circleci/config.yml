@@ -42,9 +42,6 @@ jobs:
       - store_test_results:
           path: junit
 
-      # upload coverage file to codecov
-      - run: ./node_modules/.bin/codecov
-
       - deploy:
           name: yarn packagr
           command: |

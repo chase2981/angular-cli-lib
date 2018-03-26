@@ -9,27 +9,27 @@
 [![NPM Version][npm-version-image]][npm-version-link]
 [![MIT License][npm-license-image]][npm-license-link]
 
-## @rd/core
+## @turbonemesis/angular-cli-lib
 
-[npm-icon]: https://nodei.co/npm/@rd/core.svg?downloads=true
-[npm-icon-link]: https://npmjs.org/package/@rd/core
-[circleci-badge]: https://circleci.com/gh/RentDynamics/ng-core.svg?style=shield
-[circleci-link]: https://circleci.com/gh/rentdynamics/ng-core/tree/master
-[codecov-image]: https://codecov.io/gh/RentDynamics/ng-core/branch/master/graph/badge.svg
-[codecov-link]: https://codecov.io/gh/RentDynamics/ng-core
+[npm-icon]: https://nodei.co/npm/@turbonemesis/angular-cli-lib.svg?downloads=true
+[npm-icon-link]: https://npmjs.org/package/@turbonemesis/angular-cli-lib
+[circleci-badge]: https://circleci.com/gh/chase2981/angular-cli-lib.svg?style=shield
+[circleci-link]: https://circleci.com/gh/chase2981/angular-cli-lib/tree/master
+[codecov-image]: https://codecov.io/gh/chase2981/angular-cli-lib/branch/master/graph/badge.svg
+[codecov-link]: https://codecov.io/gh/chase2981/angular-cli-lib
 [nsp-image]: https://nodesecurity.io/orgs/rent-dynamics/projects/0b73ffc7-507b-4b70-ae71-035315f28a2e/badge
 [nsp-link]: https://nodesecurity.io/orgs/rent-dynamics/projects/0b73ffc7-507b-4b70-ae71-035315f28a2e
-[dependency-image]: https://david-dm.org/RentDynamics/ng-core/status.svg
-[dependency-link]: https://david-dm.org/RentDynamics/ng-core
-[dev-dependency-image]: https://david-dm.org/RentDynamics/ng-core/dev-status.svg
-[dev-dependency-link]: https://david-dm.org/RentDynamics/ng-core?type=dev
-[peer-dependency-image]: https://david-dm.org/RentDynamics/ng-core/peer-status.svg
-[peer-dependency-link]: https://david-dm.org/RentDynamics/ng-core?type=peer
-[npm-version-image]: https://img.shields.io/npm/v/@rd/core.svg
-[npm-version-link]: https://www.npmjs.com/package/@rd/core
-[npm-downloads-image]: https://img.shields.io/npm/dm/@rd/core.svg
-[npm-downloads-link]: http://npm-stat.com/charts.html?package=@rd/core&from=2018-03-01
-[npm-license-image]: https://img.shields.io/npm/l/@rd/core.svg
+[dependency-image]: https://david-dm.org/chase2981/angular-cli-lib/status.svg
+[dependency-link]: https://david-dm.org/chase2981/angular-cli-lib
+[dev-dependency-image]: https://david-dm.org/chase2981/angular-cli-lib/dev-status.svg
+[dev-dependency-link]: https://david-dm.org/chase2981/angular-cli-lib?type=dev
+[peer-dependency-image]: https://david-dm.org/chase2981/angular-cli-lib/peer-status.svg
+[peer-dependency-link]: https://david-dm.org/chase2981/angular-cli-lib?type=peer
+[npm-version-image]: https://img.shields.io/npm/v/@turbonemesis/angular-cli-lib.svg
+[npm-version-link]: https://www.npmjs.com/package/@turbonemesis/angular-cli-lib
+[npm-downloads-image]: https://img.shields.io/npm/dm/@turbonemesis/angular-cli-lib.svg
+[npm-downloads-link]: http://npm-stat.com/charts.html?package=@turbonemesis/angular-cli-lib&from=2018-03-01
+[npm-license-image]: https://img.shields.io/npm/l/@turbonemesis/angular-cli-lib.svg
 [npm-license-link]: LICENSE
 [license-link]: http://opensource.org/licenses/MIT
 

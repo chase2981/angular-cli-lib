@@ -40,6 +40,7 @@
     "@angular/platform-browser": "^5.2.0",
     "@angular/platform-browser-dynamic": "^5.2.0",
     "@angular/router": "^5.2.0",
+    "@turbonemesis/angular-cli-lib": "file:turbonemesis-angular-cli-lib-1.0.0-alpha.1.tgz",
     "core-js": "^2.4.1",
     "rxjs": "^5.5.6",
     "zone.js": "^0.8.19"

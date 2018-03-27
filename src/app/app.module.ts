@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { SelectModule } from './lib/select';
-import { BootstrapSelectModule } from './lib/bootstrap-select';
+import { BootstrapSelectModule } from '@turbonemesis/angular-cli-lib';
 
 @NgModule({
   declarations: [

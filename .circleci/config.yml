@@ -49,8 +49,8 @@ jobs:
               yarn packagr
             fi
       - deploy:
-          name: yarn semantic-release
+          name: yarn release
           command: |
             if [ "${CIRCLE_BRANCH}" == "master" ]; then
-              yarn semantic-release || true
+              yarn release || true
             fi

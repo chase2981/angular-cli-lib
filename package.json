@@ -19,7 +19,8 @@
     "packagr": "ng-packagr -p ./src/app/lib/ng-package.json",
     "postinstall": "npm run packagr",
     "semantic-release": "cd ./dist && semantic-release",
-    "release": "standard-version -a"
+    "release": "standard-version -a",
+    "postrelease": "git push --follow-tags origin master"
   },
   "private": false,
   "readme": "README.md",

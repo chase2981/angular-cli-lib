@@ -20,7 +20,7 @@
     "postinstall": "npm run packagr",
     "semantic-release": "cd ./dist && semantic-release",
     "release": "standard-version -a",
-    "postrelease": "git push --follow-tags origin master"
+    "postrelease": "git add . && git push --follow-tags origin master"
   },
   "private": false,
   "readme": "README.md",

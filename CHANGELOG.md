@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-## [1.1.17](https://github.com/chase2981/angular-cli-lib/compare/v1.1.16...v1.1.17) (2018-06-27)
+## [1.1.18](https://github.com/chase2981/angular-cli-lib/compare/v1.1.17...v1.1.18) (2018-06-27)
 
 
 
